@@ -7,7 +7,15 @@ Version: 0.1.0
 Author: ComputeStacks
 Author URI: https://computestacks.com
 */
-if ( file_exists(CS_PLUGIN_DIR . '/computestacks') ) {
-  require CS_PLUGIN_DIR . '/computestacks/admin-login.php';
+
+// Check wether the plugin is running in a CS environment
+if ( defined('CS_PLUGIN_DIR') ){
+
+    if ( file_exists(CS_PLUGIN_DIR . '/computestacks') ) {
+        require CS_PLUGIN_DIR . '/computestacks/admin-login.php';
+    }
+    
+} else {
+    echo "Not running on CS - skipping";
 }
 
