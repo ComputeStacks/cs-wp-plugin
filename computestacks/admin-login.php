@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Admin Login
-Plugin URI: https://git.cmptstks.com/cs-public/integrations/cs-wordpress-plugin
+Plugin URI: https://github.com/ComputeStacks/cs-wp-plugin
 Description: Automatically login a user by their username
 Version: 0.1.0
 Author: ComputeStacks

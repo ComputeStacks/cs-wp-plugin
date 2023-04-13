@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: ComputeStacks
-Plugin URI: https://git.cmptstks.com/cs-public/integrations/cs-wordpress-plugin
+Plugin URI: https://github.com/ComputeStacks/cs-wp-plugin
 Description: Required integration with your hosting provider.
 Version: 0.1.0
 Author: ComputeStacks
