@@ -14,8 +14,6 @@ if ( defined('CS_PLUGIN_DIR') ){
     if ( file_exists(CS_PLUGIN_DIR . '/computestacks') ) {
         require CS_PLUGIN_DIR . '/computestacks/admin-login.php';
     }
-    
-} else {
-    echo "Not running on CS - skipping";
+
 }
 
